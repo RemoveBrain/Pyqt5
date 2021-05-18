@@ -4,7 +4,7 @@ from PyQt5.QtGui import QFont
 from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import QDate, Qt
 
-class NewWindow(QMainWindow):
+class NewWindow(QMainWindow): # 새로 띄울창 . 계산기 기능 예정.  Qtdesigner 사용해볼것.
     def __init__(self):
         super().__init__()
         self.title = "계산기"
